@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/PortFolio/static/css/main.703678ac.css",
-    "main.js": "/PortFolio/static/js/main.dba1509f.js",
-    "static/media/godfather.gif": "/PortFolio/static/media/godfather.2a49654d436aa8085a72.gif",
-    "static/media/mamma.gif": "/PortFolio/static/media/mamma.ae238933963a9bed1707.gif",
-    "static/media/beautyandbeast.gif": "/PortFolio/static/media/beautyandbeast.7c6e904aa5d304f8533a.gif",
-    "static/media/birds.svg": "/PortFolio/static/media/birds.7d456e922e4e74e769c0.svg",
-    "static/media/cv.pdf": "/PortFolio/static/media/cv.1676dcdc83730930d888.pdf",
-    "static/media/Minci.png": "/PortFolio/static/media/Minci.75ca9ce9dc7420b3778f.png",
-    "static/media/bosnia.png": "/PortFolio/static/media/bosnia.f93db5e55d28740ca80a.png",
-    "index.html": "/PortFolio/index.html",
-    "main.703678ac.css.map": "/PortFolio/static/css/main.703678ac.css.map",
-    "main.dba1509f.js.map": "/PortFolio/static/js/main.dba1509f.js.map"
+    "main.css": "/static/css/main.9b2e33dd.css",
+    "main.js": "/static/js/main.6c09fea8.js",
+    "static/media/godfather.gif": "/static/media/godfather.2a49654d436aa8085a72.gif",
+    "static/media/mamma.gif": "/static/media/mamma.ae238933963a9bed1707.gif",
+    "static/media/beautyandbeast.gif": "/static/media/beautyandbeast.7c6e904aa5d304f8533a.gif",
+    "static/media/birds.svg": "/static/media/birds.7d456e922e4e74e769c0.svg",
+    "static/media/cv.pdf": "/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/Minci.png": "/static/media/Minci.75ca9ce9dc7420b3778f.png",
+    "static/media/bosnia.png": "/static/media/bosnia.f93db5e55d28740ca80a.png",
+    "index.html": "/index.html",
+    "main.9b2e33dd.css.map": "/static/css/main.9b2e33dd.css.map",
+    "main.6c09fea8.js.map": "/static/js/main.6c09fea8.js.map"
   },
   "entrypoints": [
-    "static/css/main.703678ac.css",
-    "static/js/main.dba1509f.js"
+    "static/css/main.9b2e33dd.css",
+    "static/js/main.6c09fea8.js"
   ]
 }
