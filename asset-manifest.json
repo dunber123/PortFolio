@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/rp2447/static/css/main.4046eeea.css",
-    "main.js": "/rp2447/static/js/main.b5904f89.js",
-    "static/media/godfather.gif": "/rp2447/static/media/godfather.2a49654d436aa8085a72.gif",
-    "static/media/mamma.gif": "/rp2447/static/media/mamma.ae238933963a9bed1707.gif",
-    "static/media/beautyandbeast.gif": "/rp2447/static/media/beautyandbeast.7c6e904aa5d304f8533a.gif",
-    "static/media/birds.svg": "/rp2447/static/media/birds.7d456e922e4e74e769c0.svg",
-    "static/media/cv.pdf": "/rp2447/static/media/cv.1676dcdc83730930d888.pdf",
-    "static/media/Minci.png": "/rp2447/static/media/Minci.75ca9ce9dc7420b3778f.png",
-    "static/media/bosnia.png": "/rp2447/static/media/bosnia.f93db5e55d28740ca80a.png",
-    "index.html": "/rp2447/index.html",
-    "main.4046eeea.css.map": "/rp2447/static/css/main.4046eeea.css.map",
-    "main.b5904f89.js.map": "/rp2447/static/js/main.b5904f89.js.map"
+    "main.css": "/PortFolio/static/css/main.703678ac.css",
+    "main.js": "/PortFolio/static/js/main.dba1509f.js",
+    "static/media/godfather.gif": "/PortFolio/static/media/godfather.2a49654d436aa8085a72.gif",
+    "static/media/mamma.gif": "/PortFolio/static/media/mamma.ae238933963a9bed1707.gif",
+    "static/media/beautyandbeast.gif": "/PortFolio/static/media/beautyandbeast.7c6e904aa5d304f8533a.gif",
+    "static/media/birds.svg": "/PortFolio/static/media/birds.7d456e922e4e74e769c0.svg",
+    "static/media/cv.pdf": "/PortFolio/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/Minci.png": "/PortFolio/static/media/Minci.75ca9ce9dc7420b3778f.png",
+    "static/media/bosnia.png": "/PortFolio/static/media/bosnia.f93db5e55d28740ca80a.png",
+    "index.html": "/PortFolio/index.html",
+    "main.703678ac.css.map": "/PortFolio/static/css/main.703678ac.css.map",
+    "main.dba1509f.js.map": "/PortFolio/static/js/main.dba1509f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4046eeea.css",
-    "static/js/main.b5904f89.js"
+    "static/css/main.703678ac.css",
+    "static/js/main.dba1509f.js"
   ]
 }
