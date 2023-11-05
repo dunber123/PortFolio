@@ -1,0 +1,217 @@
+.about__container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.location__container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.about__me {
+  width: 100%;
+  aspect-ratio: 1.5/1.5;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid;
+  place-items: center;
+}
+
+.about__me-image {
+  border-radius: 1rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+
+.about__me-image:hover {
+  transform: rotate(0);
+}
+
+.loc__me {
+  width: 100%;
+  aspect-ratio: 4/2;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid;
+  place-items: center;
+}
+
+.loc__me-image {
+  border-radius: 15rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+
+.loc__me-image:hover {
+  transform: rotate(0);
+}
+
+.about__cards {
+  display: grid ;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.about__card {
+  background: var(--color-bg-variant);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid var(--color-primary);
+  height: fit-content;
+  transition: var(--transition);
+}
+
+.about__card-header {
+  background: var(--color-primary);
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.about__favorites {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem; /* Adjust as necessary */
+}
+
+/* Ensure this applies to the cards within the favorites section */
+.about__favorites .about__card {
+  /* Inherits styles from .about__card */
+}
+
+.about__card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left; /* Align text to the left */
+}
+
+.about__card li {
+  padding: 0.5rem 0; /* Adjust padding as needed */
+  margin-left: 1.5rem; /* Add space for custom bullet */
+  position: relative;
+  line-height: 1.6;
+}
+
+.about__card li::before {
+  content: '•'; /* Custom bullet symbol */
+  color: var(--color-primary); /* Change to preferred bullet color */
+  font-weight: bold; /* Optional: makes the bullet bolder */
+  position: absolute;
+  left: -1.5rem; /* Adjust distance from the text */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Enhance heading styles */
+.about__card h3 {
+  color: var(--color-bg);
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Optional: Add transition for hover effect on entire card */
+
+.about__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.about__card-content {
+  padding: 2rem;
+  background: var(--color-secondary); /* Adjust the color to match your yellow theme */
+}
+
+/* You may also want to ensure that the paragraphs inside have appropriate margins */
+.about__card-content p {
+  margin-bottom: 0.8rem;
+}
+.about__card h5 {
+  font-size: 1.05rem;
+}
+
+.about__card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+
+.about__content p {
+  margin: 0rem 0 1.6rem;
+  color: var(--color-light);
+  font-size: 1.2rem; /* Larger text */
+  line-height: 1.6; /* Optional: Adjust line spacing for readability */
+}
+
+.about__movies-heading {
+  text-align: center;
+  width: 100%; /* Ensures the heading uses the full width available */
+  margin-bottom: rem; /* optional: adds space below the heading */
+}
+
+/* Add keyframes for the butterfly animation */
+@keyframes flutter {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.butterfly {
+  animation: flutter 2s infinite ease-in-out;
+}
+
+/* Add a subtle text glow effect */
+.text-glow {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about__me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .about__content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .about__content {
+    text-align: center;
+  }
+
+  .about__content p {
+    margin: 1.5rem 0;
+  }
+}

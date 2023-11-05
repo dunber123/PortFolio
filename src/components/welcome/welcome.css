@@ -1,0 +1,83 @@
+.welcome-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Make children stack vertically */
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background: white;
+    color: rgb(8, 8, 8);
+    animation: fadeInOut 5s linear forwards;
+    z-index: 1000;
+    overflow: hidden; /* Prevent scroll bars when birds fly out of view */
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .birds {
+    position: absolute;
+    width: 100%;
+    height: 50px; /* Adjust if necessary */
+    left: 0;
+    pointer-events: none; /* So that clicks pass through */
+  }
+  
+  .birds--back {
+    top: 50%; /* Position at center */
+    transform: translateY(-900%); /* Move up by full height of birds container */
+  }
+  
+  .birds--front {
+    top: 50%; /* Position at center */
+    transform: translateY(120%); /* Move down so it starts just below the text */
+  }
+  
+  .birds .bird {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-image: url('../../assets/birds.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    animation: flyAcross 5s linear forwards;
+  }
+  
+  /* Animation delays for birds */
+  .birds .bird:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  
+  .birds .bird:nth-child(2) {
+    animation-delay: 1.5s;
+  }
+  
+  .birds .bird:nth-child(3) {
+    animation-delay: 2.5s;
+  }
+
+  .birds .bird:nth-child(4) {
+    animation-delay: 3.5s;
+  }
+  
+  @keyframes flyAcross {
+    0% { left: -20%; opacity: 0; } /* Adjusted to accommodate larger size */
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { left: 120%; opacity: 0; } /* Adjusted to accommodate larger size */
+  }
+  
+  
+  @keyframes fadeInOut {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
